@@ -1,0 +1,33 @@
+.bootom_border {
+  height: 5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.205);
+  position: sticky;
+  top: 0;
+}
+
+.sidebar1 {
+  /* margin-left: 2rem; */
+  z-index: 2;
+  margin-top: -1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* .sidebar1 Avatar {
+
+  position: relative;
+} */
+
+.sidebar1 h2,
+p {
+  align-self: flex-start;
+  margin-left: 50px;
+}
+.sidebar1 Button {
+  width: 75%;
+  border-radius: 7%;
+  color: rgb(37, 37, 37);
+  background-color: beige;
+  margin: 20px;
+}

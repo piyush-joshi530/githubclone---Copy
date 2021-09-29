@@ -1,0 +1,28 @@
+.menuLineBar {
+  display: grid;
+  grid-template-rows: 5rem 1fr 1fr 1fr;
+  grid-template-columns: 1fr 3fr;
+}
+.menuclickitems {
+  display: grid;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.205);
+  grid-column: 2/-1;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  /* position: fixed;
+  overflow: hidden; */
+}
+
+.sideBar {
+  grid-row: 1/-1;
+}
+
+.project-comp-dis {
+  grid-column: 2/-1;
+}
+
+/* .menuclickitems {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+} */

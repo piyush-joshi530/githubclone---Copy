@@ -1,0 +1,22 @@
+.tabs-design {
+  align-self: end;
+}
+
+.tabs-design ul {
+  display: flex;
+  height: 100%;
+  align-items: flex-end;
+  padding-bottom: 15px;
+}
+
+.tabs-design li {
+  margin: 10px;
+  margin-bottom: 0px;
+  /* padding-bottom: 0px; */
+}
+
+.tabs-design a {
+  text-decoration: none;
+  color: #171717;
+  padding: 4px;
+}
